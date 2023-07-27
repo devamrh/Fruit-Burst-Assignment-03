@@ -31,15 +31,19 @@
 
     <style>
       * {
-        
+        font-family: "Lato", sans-serif;
       }
 
-      .font-lato{
+      .font-lato {
         font-family: "Lato", sans-serif;
       }
 
       .primary-color {
         background: #f85559;
+      }
+
+      .transparent-bg {
+        background: rgba(18, 18, 18, 0.7);
       }
     </style>
   </head>
@@ -212,7 +216,7 @@
               days
             </div>
             <div class="flex flex-col">
-              <span class="countdown font-lato font-[500]  text-5xl">
+              <span class="countdown font-lato font-[500] text-5xl">
                 <span style="--value: 10"></span>
                 :
               </span>
@@ -261,7 +265,6 @@
                 type="radio"
                 name="rating-2"
                 class="mask mask-star-2 bg-orange-400"
-                
               />
               <input
                 type="radio"
@@ -277,72 +280,73 @@
                 type="radio"
                 name="rating-2"
                 class="mask mask-star-2 bg-orange-400"
-
                 checked
               />
             </div>
 
             <div class="card-actions">
-              
-            <!-- Modal -->
+              <!-- Modal -->
 
-            <div class="card-actions gap-4">
-              <!-- Open the modal using ID.showModal() method -->
-              <button class="text-[#F85559] " onclick="my_modal_5.showModal()">
-                <Details></Details>
-              </button>
-              <dialog
-                id="my_modal_4"
-                class="modal modal-bottom sm:modal-middle"
-              >
-                <form method="dialog" class="modal-box ">
-
-                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
-
-                  <h3 class="font-bold text-3xl">Banana</h3>
-                  <p class="py-4 px-10 text-base">
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
-                  </p>
-                  <div class="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
+              <div class="card-actions gap-4">
+                <!-- Open the modal using ID.showModal() method -->
+                <button class="text-[#F85559]" onclick="my_modal_5.showModal()">
+                  <details></details>
+                </button>
+                <dialog
+                  id="my_modal_4"
+                  class="modal modal-bottom sm:modal-middle"
+                >
+                  <form method="dialog" class="modal-box">
+                    <img
+                      src="images/fruit9.png"
+                      alt=""
+                      srcset=""
+                      class="mx-[auto] w-[200px]"
                     />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                      
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400" checked
-                    />
-                  </div>
-                  <div class="modal-action justify-center">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button>
-                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
-                  </div>
-                </form>
-              </dialog>
-            </div>
 
-
-
-
+                    <h3 class="font-bold text-3xl">Banana</h3>
+                    <p class="py-4 px-10 text-base">
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked
+                      />
+                    </div>
+                    <div class="modal-action justify-center">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                      <button class="btn bg-[#F85559] text-white">
+                        Buy Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
+              </div>
             </div>
           </div>
         </div>
@@ -367,7 +371,6 @@
                 type="radio"
                 name="rating-2"
                 class="mask mask-star-2 bg-orange-400"
-                
               />
               <input
                 type="radio"
@@ -382,71 +385,74 @@
               <input
                 type="radio"
                 name="rating-2"
-                class="mask mask-star-2 bg-orange-400"checked
+                class="mask mask-star-2 bg-orange-400"
+                checked
               />
             </div>
 
             <div class="card-actions">
-             
-            <!-- Modal -->
+              <!-- Modal -->
 
-            <div class="card-actions gap-4">
-              <!-- Open the modal using ID.showModal() method -->
-              <button class="text-[#F85559] " onclick="my_modal_5.showModal()">
-                <Details></Details>
-              </button>
-              <dialog
-                id="my_modal_3"
-                class="modal modal-bottom sm:modal-middle"
-              >
-                <form method="dialog" class="modal-box ">
-
-                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
-
-                  <h3 class="font-bold text-3xl">Banana</h3>
-                  <p class="py-4 px-10 text-base">
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
-                  </p>
-                  <div class="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
+              <div class="card-actions gap-4">
+                <!-- Open the modal using ID.showModal() method -->
+                <button class="text-[#F85559]" onclick="my_modal_5.showModal()">
+                  <details></details>
+                </button>
+                <dialog
+                  id="my_modal_3"
+                  class="modal modal-bottom sm:modal-middle"
+                >
+                  <form method="dialog" class="modal-box">
+                    <img
+                      src="images/fruit9.png"
+                      alt=""
+                      srcset=""
+                      class="mx-[auto] w-[200px]"
                     />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                      
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400" checked
-                    />
-                  </div>
-                  <div class="modal-action justify-center">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button>
-                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
-                  </div>
-                </form>
-              </dialog>
-            </div>
 
-
-
-
+                    <h3 class="font-bold text-3xl">Banana</h3>
+                    <p class="py-4 px-10 text-base">
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked
+                      />
+                    </div>
+                    <div class="modal-action justify-center">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                      <button class="btn bg-[#F85559] text-white">
+                        Buy Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
+              </div>
             </div>
           </div>
         </div>
@@ -491,66 +497,68 @@
             </div>
 
             <div class="card-actions">
-              
-            <!-- Modal -->
+              <!-- Modal -->
 
-            <div class="card-actions gap-4">
-              <!-- Open the modal using ID.showModal() method -->
-              <button class="text-[#F85559] " onclick="my_modal_5.showModal()">
-                <Details></Details>
-              </button>
-              <dialog
-                id="my_modal_1"
-                class="modal modal-bottom sm:modal-middle"
-              >
-                <form method="dialog" class="modal-box ">
-
-                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
-
-                  <h3 class="font-bold text-3xl">Banana</h3>
-                  <p class="py-4 px-10 text-base">
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
-                  </p>
-                  <div class="rating">
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
+              <div class="card-actions gap-4">
+                <!-- Open the modal using ID.showModal() method -->
+                <button class="text-[#F85559]" onclick="my_modal_5.showModal()">
+                  <details></details>
+                </button>
+                <dialog
+                  id="my_modal_1"
+                  class="modal modal-bottom sm:modal-middle"
+                >
+                  <form method="dialog" class="modal-box">
+                    <img
+                      src="images/fruit9.png"
+                      alt=""
+                      srcset=""
+                      class="mx-[auto] w-[200px]"
                     />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                      checked
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                    />
-                    <input
-                      type="radio"
-                      name="rating-2"
-                      class="mask mask-star-2 bg-orange-400"
-                    />
-                  </div>
-                  <div class="modal-action justify-center">
-                    <!-- if there is a button in form, it will close the modal -->
-                    <button class="btn">Close</button>
-                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
-                  </div>
-                </form>
-              </dialog>
-            </div>
 
-
-
-
+                    <h3 class="font-bold text-3xl">Banana</h3>
+                    <p class="py-4 px-10 text-base">
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                    </div>
+                    <div class="modal-action justify-center">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button class="btn">Close</button>
+                      <button class="btn bg-[#F85559] text-white">
+                        Buy Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
+              </div>
             </div>
           </div>
         </div>
@@ -575,7 +583,6 @@
                 type="radio"
                 name="rating-2"
                 class="mask mask-star-2 bg-orange-400"
-                
               />
               <input
                 type="radio"
@@ -590,29 +597,34 @@
               <input
                 type="radio"
                 name="rating-2"
-                class="mask mask-star-2 bg-orange-400" checked
+                class="mask mask-star-2 bg-orange-400"
+                checked
               />
             </div>
-
 
             <!-- Modal -->
 
             <div class="card-actions gap-4">
               <!-- Open the modal using ID.showModal() method -->
-              <button class="text-[#F85559] " onclick="my_modal_5.showModal()">
-                <Details></Details>
+              <button class="text-[#F85559]" onclick="my_modal_5.showModal()">
+                <details></details>
               </button>
               <dialog
                 id="my_modal_5"
                 class="modal modal-bottom sm:modal-middle"
               >
-                <form method="dialog" class="modal-box ">
-
-                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
+                <form method="dialog" class="modal-box">
+                  <img
+                    src="images/fruit9.png"
+                    alt=""
+                    srcset=""
+                    class="mx-[auto] w-[200px]"
+                  />
 
                   <h3 class="font-bold text-3xl">Banana</h3>
                   <p class="py-4 px-10 text-base">
-                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
                   </p>
                   <div class="rating">
                     <input
@@ -650,10 +662,6 @@
                 </form>
               </dialog>
             </div>
-
-
-
-
           </div>
         </div>
       </section>
@@ -663,6 +671,19 @@
           Shop All
         </button>
       </div>
+
+      <section>
+
+        <div class="transparent-bg">
+          <img src="images/team.png" alt="" class="opacity-[0.7]" />
+        </div>
+
+        
+
+
+
+
+      </section>
     </main>
   </body>
 </html>
