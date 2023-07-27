@@ -1,7 +1,8 @@
-// Initialization for ES Users
-import {
-    Carousel,
-    initTE,
-  } from "tw-elements";
-  
-  initTE({ Carousel });
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: ["./src/**/*.{html,js}"],
+    theme: {
+      extend: {},
+    },
+    plugins: [],
+  }
