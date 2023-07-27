@@ -31,6 +31,10 @@
 
     <style>
       * {
+        
+      }
+
+      .font-lato{
         font-family: "Lato", sans-serif;
       }
 
@@ -187,7 +191,7 @@
       <!-- Countdown -->
 
       <section
-        class="mx-5 my-32 sm:direction-col lg:flex justify-between items-center"
+        class="mx-5 my-32 sm:direction-col lg:flex justify-between items-center font-lato"
       >
         <div class="flex-start sm:w-1/2">
           <h1 class="text-5xl font-[800]">Deal of the day</h1>
@@ -201,28 +205,28 @@
         <div class="flex-end">
           <div class="grid grid-flow-col gap-5 text-center">
             <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-lato text-5xl font-[500]">
                 <span style="--value: 15"></span>
                 :
               </span>
               days
             </div>
             <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-lato font-[500]  text-5xl">
                 <span style="--value: 10"></span>
                 :
               </span>
               hours
             </div>
             <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-lato text-5xl font-[500]">
                 <span style="--value: 24"></span>
                 :
               </span>
               min
             </div>
             <div class="flex flex-col">
-              <span class="countdown font-mono text-5xl">
+              <span class="countdown font-lato text-5xl font-[500]">
                 <span style="--value: 51"></span>
               </span>
               sec
@@ -257,27 +261,88 @@
                 type="radio"
                 name="rating-2"
                 class="mask mask-star-2 bg-orange-400"
+                
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+
                 checked
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
               />
             </div>
 
             <div class="card-actions">
-              <button class="text-[#F85559]">Details</button>
+              
+            <!-- Modal -->
+
+            <div class="card-actions gap-4">
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="text-[#F85559] " onclick="my_modal_5.showModal()">
+                <Details></Details>
+              </button>
+              <dialog
+                id="my_modal_4"
+                class="modal modal-bottom sm:modal-middle"
+              >
+                <form method="dialog" class="modal-box ">
+
+                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
+
+                  <h3 class="font-bold text-3xl">Banana</h3>
+                  <p class="py-4 px-10 text-base">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400" checked
+                    />
+                  </div>
+                  <div class="modal-action justify-center">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+
+
+
+
             </div>
           </div>
         </div>
@@ -302,7 +367,7 @@
                 type="radio"
                 name="rating-2"
                 class="mask mask-star-2 bg-orange-400"
-                checked
+                
               />
               <input
                 type="radio"
@@ -317,12 +382,71 @@
               <input
                 type="radio"
                 name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
+                class="mask mask-star-2 bg-orange-400"checked
               />
             </div>
 
             <div class="card-actions">
-              <button class="text-[#F85559]">Details</button>
+             
+            <!-- Modal -->
+
+            <div class="card-actions gap-4">
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="text-[#F85559] " onclick="my_modal_5.showModal()">
+                <Details></Details>
+              </button>
+              <dialog
+                id="my_modal_3"
+                class="modal modal-bottom sm:modal-middle"
+              >
+                <form method="dialog" class="modal-box ">
+
+                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
+
+                  <h3 class="font-bold text-3xl">Banana</h3>
+                  <p class="py-4 px-10 text-base">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400" checked
+                    />
+                  </div>
+                  <div class="modal-action justify-center">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+
+
+
+
             </div>
           </div>
         </div>
@@ -367,7 +491,66 @@
             </div>
 
             <div class="card-actions">
-              <button class="text-[#F85559]">Details</button>
+              
+            <!-- Modal -->
+
+            <div class="card-actions gap-4">
+              <!-- Open the modal using ID.showModal() method -->
+              <button class="text-[#F85559] " onclick="my_modal_5.showModal()">
+                <Details></Details>
+              </button>
+              <dialog
+                id="my_modal_1"
+                class="modal modal-bottom sm:modal-middle"
+              >
+                <form method="dialog" class="modal-box ">
+
+                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
+
+                  <h3 class="font-bold text-3xl">Banana</h3>
+                  <p class="py-4 px-10 text-base">
+                    Professional employees are there for you to pick the most amazing and fresh fruits.
+                  </p>
+                  <div class="rating">
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-2"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                  </div>
+                  <div class="modal-action justify-center">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button class="btn">Close</button>
+                    <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+
+
+
+
             </div>
           </div>
         </div>
@@ -392,7 +575,7 @@
                 type="radio"
                 name="rating-2"
                 class="mask mask-star-2 bg-orange-400"
-                checked
+                
               />
               <input
                 type="radio"
@@ -407,9 +590,12 @@
               <input
                 type="radio"
                 name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
+                class="mask mask-star-2 bg-orange-400" checked
               />
             </div>
+
+
+            <!-- Modal -->
 
             <div class="card-actions gap-4">
               <!-- Open the modal using ID.showModal() method -->
@@ -422,7 +608,7 @@
               >
                 <form method="dialog" class="modal-box ">
 
-                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[165px]">
+                  <img src="images/fruit9.png" alt="" srcset="" class="mx-[auto] w-[200px]">
 
                   <h3 class="font-bold text-3xl">Banana</h3>
                   <p class="py-4 px-10 text-base">
